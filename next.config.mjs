@@ -8,7 +8,7 @@ const isProd = process.env.NODE_ENV === 'production';
 /** @type {import("next").NextConfig} */
 const config = {
   reactStrictMode: true,
-  assetPrefix: isProd ? 'https://maxon-stack.github.io/Portfolio' : undefined,
+  assetPrefix: isProd ? 'https://maxon-stack.github.io/Portfolio/' : 'http://localhost:3000/',
   /**
    * If you have `experimental: { appDir: true }` set, then you must comment the below `i18n` config
    * out.
