@@ -24,7 +24,7 @@ const Hero = () => {
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
       <BackgroundCircles />
       <img className='rounded-full mx-auto object-cover h-32 w-32'
-        src='/profile.jpg'
+        src='/Portfolio/profile.jpg'
         alt='Profile'
       />
       <div className='z-20'> 

@@ -4,11 +4,11 @@
  */
 await import("./src/env.mjs");
 const isProd = process.env.NODE_ENV === 'production';
+console.log('isProd', isProd)
 
 /** @type {import("next").NextConfig} */
 const config = {
   reactStrictMode: true,
-  assetPrefix: isProd ? '/Portfolio' : undefined,
   /**
    * If you have `experimental: { appDir: true }` set, then you must comment the below `i18n` config
    * out.
