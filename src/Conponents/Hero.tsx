@@ -5,9 +5,9 @@ import Image from 'next/image'
 //import Profile from '@/profile.jpg';
 import Link from 'next/link';
 
-type Props = {}
 
-const Hero = (props: Props) => {
+
+const Hero = () => {
   const [text, count] = useTypewriter({
     words: [
       'Hello, I\'m Maxon Corvil',
